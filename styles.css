@@ -1,0 +1,111 @@
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif; /* Set the font for the entire page */
+    background-color: #f4f4f9; /* Light grey background color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .container {
+    max-width: 800px; /* Maximum width of the container */
+    margin: 50px auto; /* Center the container with top/bottom margin */
+    background-color: white; /* White background for the container */
+    padding: 20px; /* Padding inside the container */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Shadow effect for 3D look */
+    border-radius: 10px; /* Rounded corners for the container */
+  }
+  
+  /* Heading Styles */
+  h1 {
+    color: #333; /* Dark grey text color */
+    text-align: center; /* Center align the heading */
+    margin-top: -40px; /* Lift the heading upwards */
+    padding: 20px; /* Padding around the heading text */
+    font-size: 2rem; /* Font size for the heading */
+    position: relative; /* Positioning context for the shadow */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15); /* Floating shadow effect */
+    display: inline-block; /* Inline block display to fit content */
+    background-color: #fff; /* White background for the heading */
+    border-radius: 5px; /* Slightly rounded corners for the heading */
+  }
+  
+  h2 {
+    color: #333; /* Dark grey text color for subheadings */
+  }
+  
+  /* Form Elements */
+  label {
+    display: block; /* Block display to stack labels */
+    margin: 10px 0 5px; /* Margin for spacing around labels */
+  }
+  
+  input {
+    width: 100%; /* Full width of the container */
+    padding: 8px; /* Padding inside the input field */
+    margin-bottom: 20px; /* Margin below the input field */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 4px; /* Slightly rounded corners for the input field */
+  }
+  
+  button {
+    padding: 10px 20px; /* Padding inside the button */
+    background-color: #007bff; /* Blue background color */
+    color: white; /* White text color */
+    border: none; /* Remove default border */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 4px; /* Slightly rounded corners for the button */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Responsive Styles for Tablets and Small Devices */
+  @media (max-width: 768px) {
+    .container {
+      max-width: 90%; /* Adjust container width for smaller screens */
+      padding: 15px; /* Adjust padding inside the container */
+    }
+  
+    h1 {
+      font-size: 1.5rem; /* Reduce font size for smaller screens */
+      padding: 15px; /* Adjust padding */
+      margin-top: -30px; /* Adjust top margin */
+    }
+  
+    h2 {
+      font-size: 1.2rem; /* Reduce font size for subheadings */
+    }
+  
+    input {
+      padding: 6px; /* Reduce padding in input fields */
+    }
+  
+    button {
+      padding: 8px 16px; /* Adjust button padding */
+      font-size: 0.9rem; /* Reduce font size */
+    }
+  }
+  
+  /* Responsive Styles for Mobile Devices */
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.2rem; /* Further reduce font size for mobile */
+      padding: 10px; /* Adjust padding */
+      margin-top: -20px; /* Adjust top margin */
+    }
+  
+    h2 {
+      font-size: 1rem; /* Further reduce font size for subheadings */
+    }
+  
+    input {
+      padding: 5px; /* Further reduce padding in input fields */
+    }
+  
+    button {
+      padding: 7px 14px; /* Adjust button padding for mobile */
+      font-size: 0.8rem; /* Further reduce font size */
+    }
+  }
+  

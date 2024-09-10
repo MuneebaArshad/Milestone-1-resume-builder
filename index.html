@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Resume Builder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Resume Builder by Muneeba Arshad</h1>
+
+    <!-- Personal Information -->
+    <form id="resume-form">
+      <h2>Personal Information</h2>
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+      
+      <!-- Email -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+
+      <!-- phone -->
+      <label for="phone">Phone:</label>
+      <input type="text" id="phone" required>
+
+      <!-- education -->
+      <h2>Education</h2>
+      <label for="education">Degree:</label>
+      <input type="text" id="education" required>
+
+      <!-- Skills -->
+      <h2>Skills</h2>
+      <button type="button" id="toggle-skills-btn">Hide Skills</button>
+      <div id="skills-section">
+        <label for="skills">Skills (comma separated):</label>
+        <input type="text" id="skills" required>
+      </div>
+
+      <!-- Work Experience -->
+      <h2>Work Experience</h2>
+      <label for="work">Work Experience:</label>
+      <input type="text" id="work" required>
+
+      <!-- button -->
+      <button type="submit">Generate Resume</button>
+    </form>
+  </div>
+ 
+  <script src="app.js" defer></script>
+</body>
+</html>
